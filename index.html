@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts  -->
+    <!-- /Pacifico/ font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- /Inter/ font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Developer</title>
+  </head>
+  <body class="font-inter text-black">
+    <!-- Navigation bar -->
+    <nav class="my-3 py-2 px-3 md:px-10">
+      <div
+        class="container mx-auto flex flex-col items-center justify-between md:flex-row"
+      >
+        <div class="flex space-x-1 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#6C63FF"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"
+            />
+          </svg>
+          <h1 class="text-xl font-pacifico">Developer</h1>
+        </div>
+        <div class="mt-5 md:mt-0">
+          <ul class="flex space-x-5 text-sm md:text-base">
+            <li class="nav-item">
+              <a href="#" class="text-mainColor font-bold">Home</a>
+            </li>
+            <li class="nav-item"><a href="#">Course</a></li>
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><a href="#">About Us</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Sections -->
+    <section class="bg-[#474297] px-10 py-16">
+      <div class="container mx-auto flex flex-col md:flex-row">
+        <div class="banner-text md:w-1/2 md:pr-28">
+          <h3
+            class="text-buttonsColor sm:text-lg md:text-xl uppercase mb-4 lg:mb-0"
+          >
+            On Sale $94.9
+          </h3>
+          <h1 class="sm:text-xl md:text-3xl mb-4 lg:mb-0">
+            Welcome to <span class="font-pacifico">Developer</span>
+          </h1>
+          <p class="text-justify sm:tetx-sm md:text-base mb-4 lg:mb-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            tempora totam cum velit dignissimos vitae modi consequatur unde
+            corporis! Consequatur doloribus aliquid doloremque, itaque sed
+            dignissimos numquam amet earum soluta.
+          </p>
+          <a
+            class="bg-buttonsColor rounded-md px-6 py-2 hover:text-buttonsColor hover:cursor-pointer hover:bg-white :mb-4 lg:mb-0"
+            >Take a Course Now!</a
+          >
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0">
+          <img src="./images/learning.svg" class="w-full" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest courses -->
+    <section class="lg:px-10 py-16">
+      <div class="container mx-auto">
+        <h1
+          class="big-title font-bold text-2xl text-center text-mainColor mb-16"
+        >
+          Latest Courses
+        </h1>
+        <div class="allCoursers md:grid md:grid-cols-3 md:gap-4">
+          <div
+            class="course flex flex-col justify-between space-y-5 border border-[lightGray] rounded-md p-10 m-5 shadow-lg"
+          >
+            <img src="./images/course1.png" class="size-full" />
+            <h3 class="text-lg font-bold">Learn Basic C#</h3>
+            <p class="text-darkGray">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptas, non ipsam!
+            </p>
+            <a
+              class="text-center text-[#fff] bg-buttonsColor rounded-md px-6 py-2 border border-buttonsColor hover:text-buttonsColor hover:cursor-pointer hover:bg-white"
+              >Learn more</a
+            >
+          </div>
+
+          <div
+            class="shadow-lg course flex flex-col justify-between space-y-5 border border-lightGray rounded-md p-10 m-5"
+          >
+            <img src="./images/course2.png" class="size-full" />
+            <h3 class="text-lg font-bold">Learn Basic JAVA</h3>
+            <p class="text-darkGray">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptas, non ipsam!
+            </p>
+            <a
+              class="text-center text-[#fff] bg-buttonsColor rounded-md px-6 py-2 border border-buttonsColor hover:text-buttonsColor hover:cursor-pointer hover:bg-white"
+              >Learn more</a
+            >
+          </div>
+          <div
+            class="shadow-lg course flex flex-col justify-between space-y-5 border border-lightGray rounded-md p-10 m-5"
+          >
+            <img src="./images/course3.png" class="size-full" />
+            <h3 class="text-lg font-bold">Learn Basic PHP</h3>
+            <p class="text-darkGray">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptas, non ipsam!
+            </p>
+            <a
+              class="text-center text-[#fff] bg-buttonsColor rounded-md px-6 py-2 border border-buttonsColor hover:text-buttonsColor hover:cursor-pointer hover:bg-white"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feed Back -->
+    <section class="bg-[#474297] px-3 lg:px-10 py-16">
+      <div class="container mx-auto">
+        <h1
+          class="feed-big-title font-bold text-2xl text-center text-white mb-16"
+        >
+          Students FeedBack
+        </h1>
+        <p class="text-white text-center px-2 lg:px-32">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+          incidunt eveniet quo obcaecati odit. Iure repellat dolorum voluptatum
+          maiores similique deleniti earum mollitia vitae eligendi suscipit
+          tempora, sed recusandae quia.
+        </p>
+        <div class="flex flex-col md:flex-row md:gap-6 mt-5">
+          <div class="md:w-1/3 text-center p-12">
+            <div class="flex justify-center mb-5">
+              <img src="images/student3.png" class="rounded-full size-32" />
+            </div>
+            <div>
+              <h5 class="text-buttonsColor text-lg mb-2">Jonh Doe</h5>
+              <p class="text-white">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="flex justify-center mt-5 space-x-2">
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/3 text-center p-12">
+            <div class="flex justify-center mb-5">
+              <img src="images/student1.png" class="rounded-full size-32" />
+            </div>
+            <div>
+              <h5 class="text-buttonsColor text-lg mb-2">Lara Black</h5>
+              <p class="text-white">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="flex justify-center mt-5 space-x-2">
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/3 text-center p-12">
+            <div class="flex justify-center mb-5">
+              <img src="images/student2.png" class="rounded-full size-32" />
+            </div>
+            <div>
+              <h5 class="text-buttonsColor text-lg mb-2">Mary Brown</h5>
+              <p class="text-white">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="flex justify-center mt-5 space-x-2">
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+                <img src="images/start.svg" class="size-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About US -->
+    <section class="px-3 lg:px-10 py-16">
+      <div class="container mx-auto">
+        <h1
+          class="big-title font-bold text-2xl text-center text-mainColor mb-7 md:mb-16"
+        >
+          About Us
+        </h1>
+        <div
+          class="flex flex-col md:flex-row items-center gap-12 mx-3 lg:mx-10 md:pt-10"
+        >
+          <p class="md:w-1/2 text-center px-5 leading-8">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ut
+            repellendus velit at aliquam sed reiciendis vel, repellat soluta
+            sunt repudiandae cum amet accusantium? repellat soluta sunt
+            accusantium aut eos, modi quasi, esse velit at.
+          </p>
+          <div class="md:w-1/2">
+            <img src="images/team.svg" class="size-full" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#474297] px-3 lg:px-10 py-16">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-between px-5 md:px-28">
+          <div class="mb-10 md:mb-0">
+            <h5 class="text-lg text-white">Explore Us</h5>
+            <div class="flex space-x-3 mt-2 md:mt-7">
+              <img src="images/facebook.svg" alt="facebook" class="size-6" />
+              <img src="images/instagram.svg" alt="instagram" class="size-6" />
+              <img src="images/x.svg" alt="twitter" class="size-6" />
+              <img src="images/telegram.svg" alt="telegram" class="size-6" />
+              <img src="images/whatsapp.svg" alt="whatsapp" class="size-6" />
+            </div>
+          </div>
+          <div class="mb-10 md:mb-0">
+            <h5 class="text-lg text-white">Learn More</h5>
+            <ul class="text-white text-sm space-y-2 mt-2 md:mt-7">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="text-white">
+            <div class="flex space-x-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#FFFFFF"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"
+                />
+              </svg>
+              <h5 class="text-lg font-pacifico">Developer</h5>
+            </div>
+            <div class="text-xs mt-2 md:mt-7 space-y-2">
+              <p>
+                Developed by
+                <a href="mailto:amani.masri@gmail.com" class="text-buttonsColor"
+                  >Eng.Amani Almasri</a
+                >
+              </p>
+              <p>&copy; Copy right 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
